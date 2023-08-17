@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/admin/yymLOLPve
+C:/유영민/yymLOLPve
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52408
-Successfully changed project path to: C:/Users/admin/yymLOLPve
-C:/Users/admin/yymLOLPve
+55430
+Successfully changed project path to: C:/유영민/yymLOLPve
+C:/유영민/yymLOLPve
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/Users/admin/yymLOLPve
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3060] Host "[IP] 192.168.1.161 [Port] 0 [Flags] 2 [Guid] 2574108797 [EditorId] 2574108797 [Version] 1048832 [Id] WindowsEditor(7,A06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15656] Host "[IP] 192.168.1.161 [Port] 0 [Flags] 2 [Guid] 2675772465 [EditorId] 2675772465 [Version] 1048832 [Id] WindowsEditor(7,A06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3060] Host "[IP] 192.168.1.161 [Port] 0 [Flags] 2 [Guid] 2574108797 [EditorId] 2574108797 [Version] 1048832 [Id] WindowsEditor(7,A06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15656] Host "[IP] 192.168.1.161 [Port] 0 [Flags] 2 [Guid] 2675772465 [EditorId] 2675772465 [Version] 1048832 [Id] WindowsEditor(7,A06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 65.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/admin/yymLOLPve/Assets
+[Subsystems] Discovering subsystems at path C:/유영민/yymLOLPve/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002649 seconds.
+Registered in 0.002779 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 67.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.540 seconds
+- Completed reload, in  0.538 seconds
 Domain Reload Profiling:
-	ReloadAssembly (540ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (538ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (392ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (390ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (98ms)
+			SetupTypeCache (96ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (227ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
-				BeforeProcessingInitializeOnLoad (1ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002050 seconds.
+Registered in 0.002015 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\admin\yymLOLPve\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\admin\yymLOLPve\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\유영민\yymLOLPve\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\유영민\yymLOLPve\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.837 seconds
+- Completed reload, in  0.855 seconds
 Domain Reload Profiling:
-	ReloadAssembly (837ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (855ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (651ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (666ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
+			SetupTypeCache (237ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (281ms)
+			SetupLoadedEditorAssemblies (286ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (190ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (114.0 KB). Loaded Objects now: 3509.
-Memory consumption went from 112.8 MB to 112.7 MB.
-Total: 2.343800 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.187800 ms MarkObjects: 1.826600 ms  DeleteObjects: 0.087600 ms)
+Unloading 24 unused Assets / (113.9 KB). Loaded Objects now: 3509.
+Memory consumption went from 112.9 MB to 112.8 MB.
+Total: 4.116600 ms (FindLiveObjects: 0.415800 ms CreateObjectMapping: 0.614600 ms MarkObjects: 2.949500 ms  DeleteObjects: 0.136200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,58 +163,244 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3217.829998 seconds.
-  path: Assets/RPG Tiny Hero Duo
-  artifactKey: Guid(1a743e366d467614a804ff31c47de8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Tiny Hero Duo using Guid(1a743e366d467614a804ff31c47de8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af7bb4db7591dbcd5ba9edd03a52179') in 0.004328 seconds 
+  Time since last request: 3908.459748 seconds.
+  path: Assets/WizardPolyArt
+  artifactKey: Guid(fa31adcf2528be14dbc90a51dbf8197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt using Guid(fa31adcf2528be14dbc90a51dbf8197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3c0699c169c9ec4331b1e7cc17bb19') in 0.004327 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.346809 seconds.
-  path: Assets/RPG Tiny Hero Duo/Prefab
-  artifactKey: Guid(349a7771185191b418b97051fee521cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Tiny Hero Duo/Prefab using Guid(349a7771185191b418b97051fee521cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbe4da3c3031c7c25d4aa23d6db8870') in 0.000967 seconds 
+  Time since last request: 4.037608 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation
+  artifactKey: Guid(ce9fc0549a119344c9f1e480f227ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation using Guid(ce9fc0549a119344c9f1e480f227ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7851d20d99ee3db1f5eb1b4c2ded4670') in 0.001032 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.057904 seconds.
-  path: Assets/RPG Tiny Hero Duo/Prefab/FemaleCharacterPBR.prefab
-  artifactKey: Guid(cc91c8ba8b9a34f4d99e70d721f60b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Tiny Hero Duo/Prefab/FemaleCharacterPBR.prefab using Guid(cc91c8ba8b9a34f4d99e70d721f60b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8ea18db578aad71977da1af69674e8') in 0.324293 seconds 
+  Time since last request: 1.064902 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield
+  artifactKey: Guid(f0e650f653210564c8b54172a27e8335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield using Guid(f0e650f653210564c8b54172a27e8335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2113458d4163d671acba28343c77a16c') in 0.000689 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/RPG Tiny Hero Duo/Prefab/Shield08PBR.prefab
-  artifactKey: Guid(573036acf9f1e0c42845dddc25cea245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Tiny Hero Duo/Prefab/Shield08PBR.prefab using Guid(573036acf9f1e0c42845dddc25cea245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165207221631114403142001d48a3bf8') in 0.009452 seconds 
+  Time since last request: 0.057604 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack01_SwordAndShiled.fbx
+  artifactKey: Guid(db509ad77f9b4f84a8eb1989f589b24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack01_SwordAndShiled.fbx using Guid(db509ad77f9b4f84a8eb1989f589b24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77b55f5776dc0ffbc63206bca3a8d47') in 0.230354 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000038 seconds.
-  path: Assets/RPG Tiny Hero Duo/Prefab/Shield05Polyart.prefab
-  artifactKey: Guid(f06068434cc02c941bd2b282c8d154ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Tiny Hero Duo/Prefab/Shield05Polyart.prefab using Guid(f06068434cc02c941bd2b282c8d154ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c86265c8212676b564dde37e5bcbb70') in 0.177766 seconds 
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Die01_Stay_SwordAndShield.fbx
+  artifactKey: Guid(0e112f1584fcccd4face09e3b7156832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Die01_Stay_SwordAndShield.fbx using Guid(0e112f1584fcccd4face09e3b7156832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edff05b049e770d1c1588f4b43b2fb81') in 0.043677 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/RPG Tiny Hero Duo/Prefab/OHS06Polyart.prefab
-  artifactKey: Guid(a611871aa4f987941bf934736c0ee6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Tiny Hero Duo/Prefab/OHS06Polyart.prefab using Guid(a611871aa4f987941bf934736c0ee6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48850bbd899861542f1da3e8153e7266') in 0.005374 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/GetHit01_SwordAndShield.fbx
+  artifactKey: Guid(c98546b8d8d3ab046afc8acfe706361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/GetHit01_SwordAndShield.fbx using Guid(c98546b8d8d3ab046afc8acfe706361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a1f2ae097aaff63e4b1c3a0a6fddd2') in 0.034497 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/RPG Tiny Hero Duo/Prefab/Shield08Polyart.prefab
-  artifactKey: Guid(f86f26a978127384b85b71f1235c8ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Tiny Hero Duo/Prefab/Shield08Polyart.prefab using Guid(f86f26a978127384b85b71f1235c8ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02bb8aac5699eff69ba83bcf1ea0a66') in 0.006718 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/DefendHit_SwordAndShield.fbx
+  artifactKey: Guid(655c85429305c154b88f3b9157168e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/DefendHit_SwordAndShield.fbx using Guid(655c85429305c154b88f3b9157168e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab186e23d102251790a8fc35b693649b') in 0.036897 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RPG Tiny Hero Duo/Prefab/Shield05PBR.prefab
-  artifactKey: Guid(ac86f8ddca59acb4184d3eb42067bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Tiny Hero Duo/Prefab/Shield05PBR.prefab using Guid(ac86f8ddca59acb4184d3eb42067bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6292f793baddae96737c748437149c7') in 0.006655 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Die01_SwordAndShield.fbx
+  artifactKey: Guid(5940bb0b55717a746bbbe4d3e47e7e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Die01_SwordAndShield.fbx using Guid(5940bb0b55717a746bbbe4d3e47e7e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89ca468679f4e24507f95337987bf90') in 0.037144 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/RPG Tiny Hero Duo/Prefab/MaleCharacterPBR.prefab
-  artifactKey: Guid(2dfbb63c9cdf7504faf4ff26b0581598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Tiny Hero Duo/Prefab/MaleCharacterPBR.prefab using Guid(2dfbb63c9cdf7504faf4ff26b0581598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45ad13c5143c0bcdddcd0d152b11947') in 0.025259 seconds 
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Defend_SwordAndShield.fbx
+  artifactKey: Guid(61f2c64d4f97d9f459a1d367eb16fb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Defend_SwordAndShield.fbx using Guid(61f2c64d4f97d9f459a1d367eb16fb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e77987931c7863c2386fe9955a7269') in 0.038765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Victory_Battle_SwordAndShield.fbx
+  artifactKey: Guid(03bef14f938475e429e87b9e986bc32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Victory_Battle_SwordAndShield.fbx using Guid(03bef14f938475e429e87b9e986bc32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a744f77fab0cc621f86fdd856b8aab') in 0.038255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_SwordAndShiled.fbx
+  artifactKey: Guid(b267a2c210dbd1d4badc3f270df6d12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_SwordAndShiled.fbx using Guid(b267a2c210dbd1d4badc3f270df6d12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e235635bcbdfe3a9d1c6a5629539c0b') in 0.032758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/AvatarMask.mask
+  artifactKey: Guid(0a2d610c66cc08b4492b8b3de93fdbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/AvatarMask.mask using Guid(0a2d610c66cc08b4492b8b3de93fdbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2159d2996f35497955feca55296a6e6d') in 0.002471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/LevelUp_Battle_SwordAndShield.fbx
+  artifactKey: Guid(7125eebf1200f4b4ba2f105c37668d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/LevelUp_Battle_SwordAndShield.fbx using Guid(7125eebf1200f4b4ba2f105c37668d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee30eab873df455b1633bc109e485d92') in 0.029495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.747936 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace
+  artifactKey: Guid(04072eb8216e6624cb504264603199b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace using Guid(04072eb8216e6624cb504264603199b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de85320c09403f84dd52d80497902ac') in 0.000740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051689 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Double_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(5a1a6cd3b07227d4291a52440352f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Double_InPlace_SwordAndShield.fbx using Guid(5a1a6cd3b07227d4291a52440352f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a86e1afdcc3df8c1c135214d5493d4e') in 0.034812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Spin_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(c025fa5a934bfbb40b2bf27c97c22b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Spin_InPlace_SwordAndShield.fbx using Guid(c025fa5a934bfbb40b2bf27c97c22b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997566e72db4061a9166c9399f1b5017') in 0.040342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveRGT_Battle_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(f531fd2d5a6a8a440b5d450e029c4041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveRGT_Battle_InPlace_SwordAndShield.fbx using Guid(f531fd2d5a6a8a440b5d450e029c4041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcecb8345318a8dd3f5a9ffedf216583') in 0.036863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Battle_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(7d4f9e9da55a3bd4f958a63308a522a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Battle_InPlace_SwordAndShield.fbx using Guid(7d4f9e9da55a3bd4f958a63308a522a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ff092d2f57945be6add10b736436e0') in 0.032659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpEnd_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(8b662f6fbb996ba429182e54857361d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpEnd_Normal_InPlace_SwordAndShield.fbx using Guid(8b662f6fbb996ba429182e54857361d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793fb8e22949a20d5706299815b0ca73') in 0.039308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(0791e523b7f1b2740a3b1cde42b6aeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Normal_InPlace_SwordAndShield.fbx using Guid(0791e523b7f1b2740a3b1cde42b6aeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374e1ec41f2c697254df2836ddd96111') in 0.032784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.614105 seconds.
+  path: Assets/RPG Tiny Hero Duo/Material/Polyart_Default.mat
+  artifactKey: Guid(348eeda6cad5d86469a42deac7177e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Material/Polyart_Default.mat using Guid(348eeda6cad5d86469a42deac7177e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ffbc7b160740834b1b4a57db5efe1c') in 0.031860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.587738 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/ModularCharacterPolyart.fbx
+  artifactKey: Guid(14ab85c74a636c74baa3ae08a1b410bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/ModularCharacterPolyart.fbx using Guid(14ab85c74a636c74baa3ae08a1b410bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15ed0eeda93eace654a4d1aa6f23d0b') in 0.073452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.267280 seconds.
+  path: Assets/RPG Tiny Hero Duo/Texture/Emission.png
+  artifactKey: Guid(a0ee9d562ffda6346b2a681ad69d73e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Texture/Emission.png using Guid(a0ee9d562ffda6346b2a681ad69d73e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280b5ad9adb4738ec41cb5a4b02a5ed9') in 0.011571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.975588 seconds.
+  path: Assets/WizardPolyArt/Animations/Attack02Maintain.fbx
+  artifactKey: Guid(772ab72bc9a5db54bbf0865469eecc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Animations/Attack02Maintain.fbx using Guid(772ab72bc9a5db54bbf0865469eecc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5ec385aa7bee5beffb867e0a015e34') in 0.016178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WizardPolyArt/Animations/JumpAirAttack.fbx
+  artifactKey: Guid(0ea920bff0bc70345a1ac988ac997e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Animations/JumpAirAttack.fbx using Guid(0ea920bff0bc70345a1ac988ac997e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7523cb04a31034343293085a2dc58e83') in 0.016471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/WizardPolyArt/Animations/Attack04.fbx
+  artifactKey: Guid(8692461656b17c84981f4c64c15341fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Animations/Attack04.fbx using Guid(8692461656b17c84981f4c64c15341fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91c0153063e2ef927d2578fcdb38f74') in 0.017080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WizardPolyArt/Animations/JumpEnd.fbx
+  artifactKey: Guid(a89727a6c7e9e224f9079feba5ba3ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Animations/JumpEnd.fbx using Guid(a89727a6c7e9e224f9079feba5ba3ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0e521254374028c70499d0d51cc451') in 0.013677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/WizardPolyArt/Animations/DefendHit.fbx
+  artifactKey: Guid(e7da2deb9071c004cb067139c9064ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Animations/DefendHit.fbx using Guid(e7da2deb9071c004cb067139c9064ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60588196742975bf557b8bd66afc02e') in 0.013582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/WizardPolyArt/Animations/Idle02.fbx
+  artifactKey: Guid(b66c3422f4986334c9ff55882cf84247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Animations/Idle02.fbx using Guid(b66c3422f4986334c9ff55882cf84247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccdcbdc89853fb6a9f1ea97589a1057') in 0.015302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/WizardPolyArt/Animations/JumpAir.fbx
+  artifactKey: Guid(4c2b27c0e8327b840ab5f916209ba36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Animations/JumpAir.fbx using Guid(4c2b27c0e8327b840ab5f916209ba36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6984d0834e2b1fbc10a3d6b553511f3') in 0.016017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/WizardPolyArt/Animations/VictoryMaintain.fbx
+  artifactKey: Guid(b016241d6c755924faa72ef01f6917f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Animations/VictoryMaintain.fbx using Guid(b016241d6c755924faa72ef01f6917f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fef81e1eeb1b514e7726bd875315305') in 0.016689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.295921 seconds.
+  path: Assets/WizardPolyArt/Materials/PolyArtMaskTint.mat
+  artifactKey: Guid(aa2697fc5c62ddc469c79075db26cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Materials/PolyArtMaskTint.mat using Guid(aa2697fc5c62ddc469c79075db26cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6490194982de76bebde2f295bd138483') in 0.174850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.348906 seconds.
+  path: Assets/WizardPolyArt/Mesh/Staff01PolyArt.fbx
+  artifactKey: Guid(199d5221dad59a74aa0d8d47e83e6e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Mesh/Staff01PolyArt.fbx using Guid(199d5221dad59a74aa0d8d47e83e6e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b8b6b54637cd266b6a8a99998df979') in 0.007633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/WizardPolyArt/Mesh/Stage.fbx
+  artifactKey: Guid(2c3dec735ce36e3498c2379c6673b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Mesh/Stage.fbx using Guid(2c3dec735ce36e3498c2379c6673b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74513d753a4e0414e944b1e4f69c00f') in 0.006587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.433914 seconds.
+  path: Assets/WizardPolyArt/Prefabs/PolyArtWizardStandardMat.prefab
+  artifactKey: Guid(ccd8c3b89aa02e943a08ab9238a8a70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Prefabs/PolyArtWizardStandardMat.prefab using Guid(ccd8c3b89aa02e943a08ab9238a8a70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78447d8e276e39663708423b9c0afe98') in 0.033273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.712806 seconds.
+  path: Assets/WizardPolyArt/Textures/ForPBRMaskTintShader/PolyArtMask.png
+  artifactKey: Guid(c47c9719298650c47a7f2042127ff9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Textures/ForPBRMaskTintShader/PolyArtMask.png using Guid(c47c9719298650c47a7f2042127ff9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e21d4adbf2d4c4e35a81b27a96fc8ed') in 0.005480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 306.685323 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/JumpFull_Spin_RM_SwordAndShield.fbx
+  artifactKey: Guid(7d1e5bb9bc81eee4095f91385b5effe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/JumpFull_Spin_RM_SwordAndShield.fbx using Guid(7d1e5bb9bc81eee4095f91385b5effe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f881e7a4d1a00877ad6647037c1741') in 0.035420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveBWD_Battle_RM_SwordAndShield.fbx
+  artifactKey: Guid(320724e8ef4b93d458cfaace85217d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveBWD_Battle_RM_SwordAndShield.fbx using Guid(320724e8ef4b93d458cfaace85217d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff5e100d2a063491a503944eaecd8c8') in 0.033417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveFWD_Battle_RM_SwordAndShield.fbx
+  artifactKey: Guid(8bcf8cfd96eeb4040a37e9e44d89a841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveFWD_Battle_RM_SwordAndShield.fbx using Guid(8bcf8cfd96eeb4040a37e9e44d89a841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c304348e1314804102d3d34ab3f132ff') in 0.030890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveLFT_Battle_RM_SwordAndShield.fbx
+  artifactKey: Guid(0451bbf0d5f172a40ac47fdb6d799f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveLFT_Battle_RM_SwordAndShield.fbx using Guid(0451bbf0d5f172a40ac47fdb6d799f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a04cd1f54b9a01e3741ef4e9f77963') in 0.034114 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
