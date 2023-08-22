@@ -1,26 +1,14 @@
 using UnityEngine;
 using UnityEngine.AI;
-enum move
-{
-    Idel,
-    Run,
-    Attack,
-}
+using static UnityEditor.Experimental.GraphView.GraphView;
 
-public class HeroState :MonoBehaviour
+
+public class HeroMove : MonoBehaviour
 {
     NavMeshAgent agent;
-    Animator animator;
-    bool Attack = false;
     private void Awake()
     {
-        animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();//
-        Debug.Log(animator);
-    }
-    private void Start()
-    {
-       
     }
     private void Update()
     {
@@ -32,36 +20,12 @@ public class HeroState :MonoBehaviour
         {
             PlayerMoveSet();
         }
-        PlayerMoveAni();
-    }
-    //
-    //
-    void PlayerMoveAni()
-    {
-        if (Vector3.Distance(gameObject.transform.position, agent.destination) >= 0.3f && Attack == false)// 현위치 - 목적지계산 // 그라운드면 실행
+        else if (Vector3.Distance(transform.position, agent.destination) <= 1)
         {
-            animator.SetInteger("HeroMove", (int)move.Run);
-            Debug.Log("t");
+            Debug.Log("asd");
+            gameObject.GetComponent<HeroAni>().HeroAniSet((int)EHeroAni.Idle);
+        }
 
-        }
-        if (Vector3.Distance(gameObject.transform.position, agent.destination) >= 3 && Attack == true)
-        {
-            animator.SetInteger("HeroMove", (int)move.Run);
-            Debug.Log("t");
-
-        }
-        else if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 3 && Attack == true)
-        {
-            animator.SetInteger("HeroMove", (int)move.Attack);
-            Debug.Log("t");
-
-            //데미지함수호출
-        }
-        else
-        {
-            animator.SetInteger("HeroMove", (int)move.Idel);
-            Debug.Log("t");
-        }
     }
     void PlayerMoveSet()
     {
@@ -70,17 +34,10 @@ public class HeroState :MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, 1 << LayerMask.NameToLayer("Ground")))//Ground 에 이동시킬 바닥에 설정한 레이어
         {
+            gameObject.GetComponent<HeroAni>().HeroAniSet((int)EHeroAni.Run);
             agent.SetDestination(hit.point);
-            Debug.Log("t");
-
-            if (Attack == true) Attack = false;
+            Debug.Log(hit.point);
         }
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity, 1 << LayerMask.NameToLayer("Monster")))
-        {
-            Debug.Log("t");
-            agent.SetDestination(hit.point);
-            if (Attack == false) Attack = true;
-        }
+       
     }
 }
-

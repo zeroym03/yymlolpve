@@ -9,8 +9,9 @@ public class Hero : MonoBehaviour
     private void Awake()
     {
         //    HeroDataSet();
-        gameObject.AddComponent<HeroState>();
-
+        gameObject.AddComponent<HeroMove>();
+        gameObject.AddComponent<HeroAni>();
+        Debug.Log("qqq");
     }
     void Start()
     {

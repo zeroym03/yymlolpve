@@ -347,6 +347,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Script/GenericSinglngton.cs"
 "Assets/Script/Hero.cs"
+"Assets/Script/HeroAni.cs"
 "Assets/Script/HeroState.cs"
 -langversion:9.0
 

@@ -59,6 +59,7 @@
     <Compile Include="Assets\Script\GenericSinglngton.cs" />
     <Compile Include="Assets\Script\HeroState.cs" />
     <Compile Include="Assets\Script\Hero.cs" />
+    <Compile Include="Assets\Script\HeroAni.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\WizardPolyArt\Shader\PolyArtMaskTint.shader" />
