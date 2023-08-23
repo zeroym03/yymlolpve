@@ -41,7 +41,7 @@ public class HeroState :MonoBehaviour
         if (Vector3.Distance(gameObject.transform.position, agent.destination) >= 0.3f && Attack == false)// 현위치 - 목적지계산 // 그라운드면 실행
         {
             animator.SetInteger("HeroMove", (int)move.Run);
-            Debug.Log("t");
+            Debug.Log("run");
 
         }
         if (Vector3.Distance(gameObject.transform.position, agent.destination) >= 3 && Attack == true)
@@ -60,7 +60,7 @@ public class HeroState :MonoBehaviour
         else
         {
             animator.SetInteger("HeroMove", (int)move.Idel);
-            Debug.Log("t");
+            Debug.Log("move");
         }
     }
     void PlayerMoveSet()
