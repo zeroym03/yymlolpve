@@ -348,7 +348,8 @@
 "Assets/Script/GenericSinglngton.cs"
 "Assets/Script/Hero.cs"
 "Assets/Script/HeroAni.cs"
-"Assets/Script/HeroState.cs"
+"Assets/Script/HeroMove.cs"
+"Assets/Script/Monster.cs"
 -langversion:9.0
 
 /deterministic
